@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build" : "cd server && npm install && cd ../client && npm install && npm run build",
+    "build" : "cd backend && npm install && npm install && npm run build",
     "start" : "node server/server.js",
     "test"  : "echo \"Error: no test specified\" && exit 1"
   },
